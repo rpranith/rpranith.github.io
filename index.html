@@ -1,0 +1,72 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <title>My Personal Website!</title>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- CDN link to SlickNav CSS  -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/SlickNav/1.0.10/slicknav.min.css">
+
+    <!-- Link to your custom stylesheet -->
+    <link rel="stylesheet" href="styles.css">
+
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.12.1/css/all.min.css">
+
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css?family=Hind|Indie+Flower&display=swap" rel="stylesheet">
+
+    <!-- CDN link to jQuery (necessary for SlickNav jQuery to work -->
+    <script src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
+
+    <!-- CDN link to SlickNav jQuery -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/SlickNav/1.0.10/jquery.slicknav.min.js"></script>
+
+    <script type="text/javascript">
+        $(document).ready(function () {
+            $(".menubar").slicknav({
+                prependTo: "#mobilemenu"
+            });
+        });
+    </script>
+</head>
+
+<body>
+    <div class="container">
+        <!-- header with logo and navigation/slickbar and hamburger menu -->
+        <header>
+            <div class="logo">
+                <h1>Pranith Koppula
+                </h1>
+            </div>
+            <nav id="mobilemenu"></nav>
+            <nav class="menubar">
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="about.html">About</a></li>
+                    <li><a href="projects.html">Projects</a></li>
+                    <li><a href="#footer">Contact</a></li>
+                </ul>
+            </nav>
+        </header>
+
+
+        <footer id="footer">
+            <p><a href="Design Spec.pdf" target="blank">Designed by Pranith</a></p>
+            <p>1235 Glendale Dr. Chapel Hill, NC. 28374.</p>
+            <p>Contact Me!
+                <i class="fab fa-facebook-f"></i>
+                <i class="fab fa-youtube"></i>
+                <i class="fab fa-yelp"></i>
+            </p>
+
+        </footer>
+
+    </div>
+
+</body>
+
+</html>

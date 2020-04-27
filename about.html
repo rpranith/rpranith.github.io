@@ -1,0 +1,77 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <title>About Me!</title>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Link to your custom stylesheet -->
+    <link rel="stylesheet" href="styles.css">
+
+    <!-- CDN link to SlickNav CSS  -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/SlickNav/1.0.10/slicknav.min.css">
+
+    <!-- CDN link to jQuery (necessary for SlickNav jQuery to work -->
+    <script src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
+
+    <!-- CDN link to SlickNav jQuery -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/SlickNav/1.0.10/jquery.slicknav.min.js"></script>
+
+    <script type="text/javascript">
+        $(document).ready(function () {
+            $(".menubar").slicknav({
+                prependTo: "#mobilemenu"
+            });
+        });
+    </script>
+</head>
+
+<body>
+    <!-- header with logo and navigation/slickbar and hamburger menu -->
+    <div class="about_header">
+        <div class="logo">
+            <h1>Pranith Koppula
+            </h1>
+        </div>
+        <nav id="mobilemenu"></nav>
+        <nav class="menubar">
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="projects.html">Projects</a></li>
+                <li><a href="#footer">Contact</a></li>
+            </ul>
+        </nav>
+    </div>
+
+    <!-- main content area with 3 columns -->
+    <main id="main_about">
+        <div class="main_content">
+            <h1>About Me!</h1>
+            <p>Hello! My name is Pranith Koppula! I am an undergraduate freshman at UNC Chapel Hill. I am currenlty
+                majoring in Computer science and Political science. I am really passionate about computer science and am
+                fascinated by using the power of machines, math, and logic to solve daily problems! I am also passionate
+                about politics and the science behind and hence I study poli sci! <br><br>
+
+                -Cheers, Pranith Koppula!
+            </p>
+            <br><br>
+            <!-- Images taken from pexel, free platform usage for high-quality images -->
+        </div>
+        <div class="some_content">
+            <img src="images/Unc.png" height="50%" width="50%" alt="UNC logo">
+        </div>
+    </main>
+
+    <footer id="footer">
+        <p>1235 Glendale Dr. Chapel Hill, NC. 28374.</p>
+        <p>Contact Me!
+            <i class="fab fa-facebook-f"></i>
+            <i class="fab fa-youtube"></i>
+            <i class="fab fa-yelp"></i>
+        </p>
+
+    </footer>
+</body>

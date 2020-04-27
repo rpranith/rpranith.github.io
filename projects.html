@@ -1,0 +1,62 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <title>About Me!</title>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Link to your custom stylesheet -->
+    <link rel="stylesheet" href="styles.css">
+
+    <!-- CDN link to SlickNav CSS  -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/SlickNav/1.0.10/slicknav.min.css">
+
+    <!-- CDN link to jQuery (necessary for SlickNav jQuery to work -->
+    <script src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
+
+    <!-- CDN link to SlickNav jQuery -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/SlickNav/1.0.10/jquery.slicknav.min.js"></script>
+
+    <script type="text/javascript">
+        $(document).ready(function () {
+            $(".menubar").slicknav({
+                prependTo: "#mobilemenu"
+            });
+        });
+    </script>
+</head>
+
+<!-- header with logo and navigation/slickbar and hamburger menu -->
+<div class="about_header">
+    <div class="logo">
+        <h1>Pranith Koppula
+        </h1>
+    </div>
+    <nav id="mobilemenu"></nav>
+    <nav class="menubar">
+        <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="about.html">About</a></li>
+            <li><a href="#">Projects</a></li>
+            <li><a href="#footer">Contact</a></li>
+        </ul>
+    </nav>
+</div>
+<div class="menu" id="menu">
+    <div class="block_wrapper">
+        <h1>Whack-A-Mole</h1>
+        <p>Simple project made using java, using observables, MVC design pattern, and more</p>
+    </div>
+    <img src="images/Whack-A-Mole.jpg" height="40%" width="40%" alt="Picture of my project whack-a-mole">
+</div>
+
+<footer id="footer">
+    <p>1235 Glendale Dr. Chapel Hill, NC. 28374.</p>
+    <p>Contact Me!
+        <i class="fab fa-facebook-f"></i>
+        <i class="fab fa-youtube"></i>
+        <i class="fab fa-yelp"></i>
+    </p>
+</footer>
